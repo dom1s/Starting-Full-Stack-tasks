@@ -1,16 +1,16 @@
-let kvartetas = 6;
+let group = 6;
 
-if (kvartetas <= 0) {
+if (group <= 0) {
     console.log('Ne grupėje');
-} else if (kvartetas === 1) {
+} else if (group === 1) {
     console.log('Solo');
-} else if (kvartetas === 2) {
+} else if (group === 2) {
     console.log('Duetas');
-} else if (kvartetas === 3) {
+} else if (group === 3) {
     console.log('Trio');
-} else if (kvartetas === 4) {
-    console.log('Kvartetas');
-} else if (kvartetas >= 5) {
+} else if (group === 4) {
+    console.log('group');
+} else if (group >= 5) {
     console.log('Didelė grupė');
 } else {
     console.log('Įvyko klaida');

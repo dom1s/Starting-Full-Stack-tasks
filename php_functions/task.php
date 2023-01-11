@@ -23,13 +23,13 @@ echo math(50, 100, 2);
 
 //Parašykite funkciją, kuri priima kaip parametrą skaičių nuo 1 iki 7, o grąžina savaitės dieną lietuvių kalba.
 function day($number){
-    if($number == 1){echo 'Pirmadienis';}
-    elseif($number == 2){echo 'Antradienis';}
-    elseif($number == 3){echo 'Trečiadienis';}
-    elseif($number == 4){echo 'Ketvirtadienis';}
-    elseif($number == 5){echo 'Penktadienis';}
-    elseif($number == 6){echo 'Šeštadienis';}
-    elseif($number == 7){echo 'Sekmadienis';}
-    else{echo 'Klaidingas parametras';}
+    if($number == 1){return 'Pirmadienis';}
+    elseif($number == 2){return 'Antradienis';}
+    elseif($number == 3){return 'Trečiadienis';}
+    elseif($number == 4){return 'Ketvirtadienis';}
+    elseif($number == 5){return 'Penktadienis';}
+    elseif($number == 6){return 'Šeštadienis';}
+    elseif($number == 7){return 'Sekmadienis';}
+    else{return 'Klaidingas parametras';}
 }
 echo day(2);
